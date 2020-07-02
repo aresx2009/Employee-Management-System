@@ -22,7 +22,7 @@ function questions() {
         name: "action",
         message: "What would you like to do?",
         choices: ["View All Departments", "View All Roles", "View All Employees",
-            "Add Employee", "Add Role", "add Department", "Update Employee Role",]
+            "Add Employee", "Add Role", "Add Department", "Update Employee Role",]
     }).then(answer => {
         switch (answer.action) {
             case "View All Departments":
@@ -161,7 +161,7 @@ function updateRole() {
         {
             type: "input",
             name: "role_id",
-            message: "Which emplyee you want to update? (enter role ID)"
+            message: "Which employee you want to update? (enter role ID)"
         },
         {
             type: "input",
